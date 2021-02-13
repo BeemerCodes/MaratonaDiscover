@@ -1,3 +1,16 @@
+<head>
+
+  <!--Meta SEO-->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="BeemerCodes">
+  <meta name="description" content="Um website para iniciantes">
+
+  <title>Testes</title>
+
+</head>
+
 <!--Citação-->
 
 <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
@@ -64,3 +77,94 @@
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quibusdam nobis labore exercitationem amet quasi earum quia autem architecto in! Perferendis iusto sequi mollitia voluptates, veniam reiciendis voluptatem aut provident.</p>
 <h1 id="sobre">Sobre</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eius perferendis porro ipsa neque temporibus odio distinctio fuga error! Quisquam qui aspernatur beatae unde illo aliquid cumque quis eos corporis?</p>
+
+<!--Tabelas-->
+
+<table>
+  <caption>Pessoas por idade</caption>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Idade</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr>
+      <td>Pedro</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Nicole</td>
+      <td>22</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <td>Total:</td>
+    <td>2 Pessoas</td>
+  </tfoot>
+</table>
+
+<br><br>
+<!--Tabela complexa-->
+<table>
+  <caption><h2 style="margin: 0;">Produzidos X Vendidos</h2></caption>
+
+  <colgroup>
+    <col style="background-color: rgb(187, 187, 187);">
+    <col span="2" style="background-color: rgb(138, 189, 171);">
+    <col span="2" style="background-color: rgb(152, 180, 206);">
+  </colgroup>
+
+  <thead>
+    <tr>
+      <th rowspan="2"></th>
+      <th colspan="2" scope="colgroup">Loja 01</th>
+      <th colspan="2" scope="colgroup">Loja 02</th>
+    </tr>
+    <tr>
+      <th scope="col">Produzidos</th>
+      <th scope="col">Vendidos</th>
+      <th scope="col">produzidos</th>
+      <th scope="col">Vendidos</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <th scope="row">Vassouras</th>
+        <td>50</td>
+        <td>30</td>
+        <td>20</td>
+        <td>20</td>
+    </tr>
+
+    <tr>
+      <th scope="row">Pás</th>
+        <td>35</td>
+        <td>29</td>
+        <td>26</td>
+        <td>19</td>
+    </tr>
+
+    <tr>
+      <th scope="row">Rodos</th>
+        <td>40</td>
+        <td>37</td>
+        <td>40</td>
+        <td>38</td>
+    </tr>
+
+    <tr>
+      <th scope="row">Baldes</th>
+      <td>60</td>
+      <td>55</td>
+      <td>47</td>
+      <td>46</td>
+    </tr>
+  </tbody>
+
+</table>
+
+
